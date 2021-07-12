@@ -1,11 +1,11 @@
 .container {
-  min-height: 100vh;
-  padding: 0 0.5rem;
+  min-height: 80vh;
+  padding: 0s;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
-  height: 100vh;
+  background: whitesmoke;
 }
 
 .main {
@@ -24,9 +24,11 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  background: whitesmoke;
 }
 
 .footer a {
+  max-height: 20vh;
   display: flex;
   justify-content: center;
   align-items: center;
